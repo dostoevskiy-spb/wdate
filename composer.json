@@ -15,10 +15,7 @@
   "scripts": {
     "test": "./vendor/bin/phpunit",
     "format": "dostoevskiy\\wdate\\Runner::getFormattedDate",
-    "compare": "dostoevskiy\\wdate\\Runner::compare",
-    "post-package-install": [
-      "@composer install"
-    ]
+    "compare": "dostoevskiy\\wdate\\Runner::compare"
   },
   "extra": {
     "scripts-description": {
