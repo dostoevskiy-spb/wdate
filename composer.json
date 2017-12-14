@@ -1,0 +1,28 @@
+{
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "dostoevskiy\\wdate\\": "src"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit",
+    "format": "dostoevskiy\\wdate\\Runner::getFormattedDate",
+    "compare": "dostoevskiy\\wdate\\Runner::compare",
+    "post-package-install": [
+      "@composer install"
+    ]
+  },
+  "extra": {
+    "scripts-description": {
+      "test": "Run WDate tests!",
+      "format": "Get formatted WDate",
+      "compare": "Compare dates with WDate"
+    }
+  }
+}
