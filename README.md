@@ -1,3 +1,9 @@
+### Установка
+
+```{r, engine='bash', install}
+composer create-project -s dev dostoevskiy/wdate wdate
+```
+
 ### Использование
 
 #### Получение отформатированной даты
