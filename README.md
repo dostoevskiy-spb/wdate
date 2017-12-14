@@ -31,7 +31,7 @@ composer run-script compare 14.02.2017 10:00:12
 
 Всё настроено, нужно просто запустить 
 ```terminal
-./vendor/bin/phpunit
+composer run-script test
 ```
 в корне проекта
 
