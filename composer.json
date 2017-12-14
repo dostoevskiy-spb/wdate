@@ -1,4 +1,5 @@
 {
+  "name": "dostoevskiy/wdate",
   "require": {
     "php": ">=7.0.0",
     "ext-intl": "*"
