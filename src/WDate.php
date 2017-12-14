@@ -2,6 +2,10 @@
 
 namespace dostoevskiy\wdate;
 
+/**
+ * Class WDate
+ * @package dostoevskiy\wdate
+ */
 class WDate {
 
     const PATTERNS = [
