@@ -17,9 +17,11 @@ composer run-script format 01.01.2018
 composer run-script compare "14.02.2017" "01: 14.02.2017"
 > dostoevskiy\wdate\Runner::compare
 Вторая дата больше первой
+
 composer run-script compare 14.02.2017 14.02.2017
 > dostoevskiy\wdate\Runner::compare
 Даты равны
+
 composer run-script compare 14.02.2017 10:00:12
 > dostoevskiy\wdate\Runner::compare
 Первая дата больше второй
